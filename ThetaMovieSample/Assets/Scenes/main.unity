@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 0}
-  m_SizeDelta: {x: 400, y: 500}
+  m_AnchoredPosition: {x: 380, y: 0}
+  m_SizeDelta: {x: 250, y: 770}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19675936
 MonoBehaviour:
@@ -206,14 +206,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -518,7 +516,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1249850448
 GameObject:
@@ -552,8 +550,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 340, y: 200}
+  m_AnchoredPosition: {x: 50, y: 0}
+  m_SizeDelta: {x: 340, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249850450
 MonoBehaviour:
@@ -576,7 +574,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -587,7 +585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3010\u4F7F\u3044\u65B9\u3011\n\n\u30FB\u898B\u5B66\u30DD\u30A4\u30F3\u30C8\u3092\u30BF\u30C3\u30C1\u3059\u308B\u3068\u3001\n\u3000\u305D\u306E\u898B\u5B66\u30DD\u30A4\u30F3\u30C8\u304B\u3089\u306E360\xB0\u5199\u771F\n\u3000\u3092\u898B\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\n\n\u30FB\uFF1F\u30DE\u30FC\u30AF\u304C\u3064\u3044\u3066\u3044\u308B\u5C55\u793A\u54C1\u3092\n\u3000\u30BF\u30C3\u30C1\u3059\u308B\u3068\u3001\u8AAC\u660E\u304C\u59CB\u307E\u308A\u307E\u3059\u3002"
+  m_Text: "\n\n\u3010\u4F7F\u3044\u65B9\u3011\n\n\u30FB\u898B\u5B66\u30DD\u30A4\u30F3\u30C8\u3092\n\u3000\u30BF\u30C3\u30C1\u3059\u308B\u3068\u3001\n\u3000\u305D\u306E\u5730\u70B9\u304B\u3089\u306E\n\u3000360\xB0\u5199\u771F\u3092\u898B\u308B\n\u3000\u3053\u3068\u304C\u3067\u304D\u307E\u3059\n\n\u30FB\u300C\uFF1F\u300D\u30DE\u30FC\u30AF\u304C\n\u3000\u3064\u3044\u3066\u3044\u308B\u5C55\u793A\n\u3000\u54C1\u3092\u30BF\u30C3\u30C1\u3059\u308B\n\u3000\u3068\u3001\u8AAC\u660E\u304C\u59CB\u307E\n\u3000\u308A\u307E\u3059\u3002"
 --- !u!222 &1249850451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -657,7 +655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1481151924
 GameObject:
@@ -676,7 +674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1481151925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +788,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d30f018ed5b94caa977a23f33375701, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 9d30f018ed5b94caa977a23f33375701, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -905,8 +903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 0}
-  m_SizeDelta: {x: 500, y: 505}
+  m_AnchoredPosition: {x: 385, y: 5}
+  m_SizeDelta: {x: 770, y: 770}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946979830
 MonoBehaviour:
