@@ -43,6 +43,9 @@ public class PointClick : MonoBehaviour {
 		img.sprite = img1;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx1);
+		//クエスチョンの配置
+		GameObject prefab = (GameObject)Resources.Load("prefab/Question1");
+		Instantiate (prefab);
 	}
 
 	public void Point2 ()
@@ -53,6 +56,9 @@ public class PointClick : MonoBehaviour {
 		img.sprite = img2;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx2);
+		//クエスチョンの配置
+		GameObject prefab = (GameObject)Resources.Load("prefab/Question2");
+		Instantiate (prefab);
 	}
 
 	public void Point3 ()
@@ -63,8 +69,12 @@ public class PointClick : MonoBehaviour {
 		img.sprite = img3;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx3);
+		//クエスチョンの配置
+		GameObject prefab = (GameObject)Resources.Load("prefab/Question3");
+		Instantiate (prefab);
 	}
 
+	//ミニマップに戻るときのメソッド
 	public void MiniMapTouch ()
 	{
 		MapCanvas.SetActive(true);
