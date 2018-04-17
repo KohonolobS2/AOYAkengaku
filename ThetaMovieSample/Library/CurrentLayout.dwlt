@@ -13,10 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 0
     width: 1440
     height: 900
+=======
+    x: 98
+    y: 45
+    width: 1787
+    height: 1017
+>>>>>>> KobaBranch
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -41,8 +48,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1440
     height: 900
+=======
+    width: 1787
+    height: 1017
+>>>>>>> KobaBranch
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -61,7 +73,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
+    width: 1787
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -81,8 +93,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 880
     width: 1440
+=======
+    y: 997
+    width: 1787
+>>>>>>> KobaBranch
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -104,8 +121,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1440
     height: 850
+=======
+    width: 1787
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
@@ -129,8 +151,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1163
     height: 850
+=======
+    width: 1443
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 640, y: 442}
   m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
@@ -153,8 +180,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 725
     height: 850
+=======
+    width: 898
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
@@ -175,8 +207,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 725
     height: 386
+=======
+    width: 898
+    height: 436
+>>>>>>> KobaBranch
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -199,11 +236,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 386
     width: 725
     height: 464
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    y: 436
+    width: 898
+    height: 531
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> KobaBranch
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -224,10 +269,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 725
+    x: 898
     y: 0
+<<<<<<< HEAD
     width: 204
     height: 850
+=======
+    width: 253
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 17}
@@ -249,10 +299,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 929
+    x: 1151
     y: 0
+<<<<<<< HEAD
     width: 234
     height: 850
+=======
+    width: 292
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 18}
@@ -274,10 +329,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1163
+    x: 1443
     y: 0
+<<<<<<< HEAD
     width: 277
     height: 850
+=======
+    width: 344
+    height: 967
+>>>>>>> KobaBranch
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -339,10 +399,18 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 19
     width: 723
     height: 443
+=======
+    x: 98
+    y: 530
+    width: 896
+    height: 510
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> KobaBranch
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -371,16 +439,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 723
       height: 426
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 361.5, y: 213}
+=======
+      width: 896
+      height: 493
+    m_Scale: {x: 0.64192706, y: 0.64192706}
+    m_Translation: {x: 448, y: 246.5}
+>>>>>>> KobaBranch
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -361.5
       y: -213
       width: 723
@@ -390,6 +466,17 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1446, y: 886}
+=======
+      x: -697.8986
+      y: -384
+      width: 1395.7972
+      height: 768
+    m_MinimalGUI: 1
+  m_defaultScale: 0.64192706
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 896, y: 510}
+>>>>>>> KobaBranch
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -415,19 +502,33 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 49
     width: 723
     height: 365
+=======
+    x: 98
+    y: 94
+    width: 896
+    height: 415
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> KobaBranch
   m_SceneLighting: 1
   lastFramingTime: 8228.521040081978
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0.0000076293945, y: 0, z: -0.000002861023}
     speed: 2
     m_Value: {x: 0.0000076293945, y: 0, z: -0.000002861023}
+=======
+    m_Target: {x: 2.3389683, y: 0.10941887, z: 9.448949}
+    speed: 2
+    m_Value: {x: 2.3389683, y: 0.10941887, z: 9.448949}
+>>>>>>> KobaBranch
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -450,6 +551,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 0.99999994}
@@ -457,6 +559,15 @@ MonoBehaviour:
     m_Target: 57.157722
     speed: 2
     m_Value: 57.157722
+=======
+    m_Target: {x: -0.13685659, y: 0.2717318, z: -0.039071888, w: -0.9517907}
+    speed: 2
+    m_Value: {x: -0.13685659, y: 0.2717318, z: -0.039071888, w: -0.9517907}
+  m_Size:
+    m_Target: 7.7626176
+    speed: 2
+    m_Value: 7.7626176
+>>>>>>> KobaBranch
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -490,10 +601,18 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 124
     y: 448
     width: 723
     height: 251
+=======
+    x: 98
+    y: 530
+    width: 896
+    height: 510
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> KobaBranch
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -516,6 +635,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 727
     y: 49
     width: 200
@@ -525,6 +645,18 @@ MonoBehaviour:
     m_SelectedIDs: 722d0000
     m_LastClickedID: 11634
     m_ExpandedIDs: ecedfeffaa1bffff4c1dffff749effff12a0fffff4c6ffff1ee0ffffa6fbffff00000000ba270000c4270000f6280000b22d0000ce2d0000
+=======
+    x: 998
+    y: 94
+    width: 249
+    height: 946
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7e310000
+    m_LastClickedID: 12670
+    m_ExpandedIDs: f21dfeff421ffeff8020feffae25feffb62efeffa434feffac35feff7437feff1849feff9efbffff000000000428000058280000902a0000
+>>>>>>> KobaBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,10 +701,18 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 931
     y: 49
     width: 230
     height: 829
+=======
+    x: 1251
+    y: 94
+    width: 288
+    height: 946
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> KobaBranch
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -585,7 +725,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Images/360images/Materials
+=======
+    - Assets/Scripts
+>>>>>>> KobaBranch
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -596,7 +740,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 6e250000
     m_LastClickedID: 9582
+<<<<<<< HEAD
     m_ExpandedIDs: 000000001a27000044270000962700000628000008280000
+=======
+    m_ExpandedIDs: 000000005c2700007627000084270000ca270000e82700009428000096280000
+>>>>>>> KobaBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,18 +772,30 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000001a2700006c270000962700000628000008280000bc2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: PointClick
       m_OriginalName: PointClick
+=======
+    m_ExpandedIDs: 000000005c27000076270000ca270000e82700009428000096280000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: TouchQusetion
+      m_OriginalName: TouchQusetion
+>>>>>>> KobaBranch
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 10254
+=======
+      m_UserData: 12814
+>>>>>>> KobaBranch
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -701,10 +861,18 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1165
     y: 49
     width: 275
     height: 829
+=======
+    x: 1543
+    y: 94
+    width: 342
+    height: 946
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> KobaBranch
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
