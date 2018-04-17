@@ -217,6 +217,65 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!1001 &389437526
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766290127276712, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b14b3b6be14b54aab87b7606654933a0, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &681894499 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1618005877401612, guid: b14b3b6be14b54aab87b7606654933a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 389437526}
+--- !u!114 &681894500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681894499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a588dc676f4dcdbbff734780acc07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hit_target: {fileID: 681894499}
 --- !u!1 &763196272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1955428103
 MonoBehaviour:
   m_ObjectHideFlags: 0
