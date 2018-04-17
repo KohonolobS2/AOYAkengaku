@@ -144,9 +144,6 @@
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/kounokiyotaka/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.StandardEvents">
- <HintPath>/Users/kounokiyotaka/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
