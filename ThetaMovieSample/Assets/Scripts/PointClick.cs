@@ -22,6 +22,10 @@ public class PointClick : MonoBehaviour {
 	public Texture tx2;
 	public Texture tx3;
 
+	//プレハブ関連のゲームobject
+	public GameObject prefab;
+	GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
+
 
 	// Use this for initialization
 	void Start () 
@@ -37,6 +41,12 @@ public class PointClick : MonoBehaviour {
 
 	public void Point1 ()
 	{
+		//Questionのリセット
+		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
+		foreach (GameObject prefab in Questions)
+		{
+			Destroy(prefab);
+		}
 		//シーンの切り替え
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
@@ -44,12 +54,20 @@ public class PointClick : MonoBehaviour {
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx1);
 		//クエスチョンの配置
-		GameObject prefab = (GameObject)Resources.Load("prefab/Question1");
-		Instantiate (prefab);
+		prefab = (GameObject)Resources.Load("prefab/Question1");
+		var obj = Instantiate(prefab) as GameObject;
+		prefab.name = "prefab1";
+		obj.name=prefab.name;
 	}
 
 	public void Point2 ()
 	{
+		//Questionのリセット
+		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
+		foreach (GameObject prefab in Questions)
+		{
+			Destroy(prefab);
+		}
 		//同上
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
@@ -57,12 +75,20 @@ public class PointClick : MonoBehaviour {
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx2);
 		//クエスチョンの配置
-		GameObject prefab = (GameObject)Resources.Load("prefab/Question2");
-		Instantiate (prefab);
+		prefab = (GameObject)Resources.Load("prefab/Question2");
+		var obj = Instantiate(prefab) as GameObject;
+		prefab.name = "prefab2";
+		obj.name=prefab.name;
 	}
 
 	public void Point3 ()
 	{
+		//Questionのリセット
+		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
+		foreach (GameObject prefab in Questions)
+		{
+			Destroy(prefab);
+		}
 		//同上
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
@@ -70,8 +96,10 @@ public class PointClick : MonoBehaviour {
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx3);
 		//クエスチョンの配置
-		GameObject prefab = (GameObject)Resources.Load("prefab/Question3");
-		Instantiate (prefab);
+		prefab = (GameObject)Resources.Load("prefab/Question3");
+		var obj = Instantiate(prefab) as GameObject;
+		prefab.name = "prefab3";
+		obj.name=prefab.name;
 	}
 
 	//ミニマップに戻るときのメソッド
