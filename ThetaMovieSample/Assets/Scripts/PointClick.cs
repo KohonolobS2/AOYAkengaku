@@ -64,5 +64,12 @@ public class PointClick : MonoBehaviour {
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx3);
 	}
+
+	public void MiniMapTouch ()
+	{
+		MapCanvas.SetActive(true);
+		MainCanvas.SetActive(false);
+
+	}
 		
 }
