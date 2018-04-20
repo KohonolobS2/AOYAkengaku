@@ -31,7 +31,7 @@ public class TouchQusetion : MonoBehaviour {
 			if (is_hit) {
 				if (hit_info.transform.name == hit_target.name) {
 					//TODO: ヒットした時の処理;
-					Debug.Log("タップされました");
+					moviePlay();
 				}
 			}   
 		}
