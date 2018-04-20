@@ -9,13 +9,14 @@ public class TouchQusetion : MonoBehaviour {
 	public VideoPlayer vp;
 	public GameObject MovieStopButton;
 
+
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	public GameObject hit_target;
+
 
 	void Update ()
 	{
