@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class TouchQusetion : MonoBehaviour {
 
+	public GameObject hit_target;
+	public GameObject movie1;
+	public VideoPlayer vp;
+	public GameObject MovieStopButton;
+
 	// Use this for initialization
 	void Start () {
 		
