@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class TouchQusetion : MonoBehaviour {
 
@@ -35,4 +36,18 @@ public class TouchQusetion : MonoBehaviour {
 			}   
 		}
 	}
+
+	private void moviePlay()
+	{
+		movie1.SetActive (true); //planeをtrueのする
+		MovieStopButton.SetActive(true);
+		vp.isLooping=true;
+	}
+
+	public void movieStop()
+	{
+		movie1.SetActive (false); //planeをfalseのする
+		MovieStopButton.SetActive(false);
+	}
+
 }
