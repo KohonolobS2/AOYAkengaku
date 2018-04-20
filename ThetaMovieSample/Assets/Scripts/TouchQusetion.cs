@@ -41,6 +41,7 @@ public class TouchQusetion : MonoBehaviour {
 	{
 		movie1.SetActive (true); //planeをtrueのする
 		MovieStopButton.SetActive(true);
+		vp.Play ();
 		vp.isLooping=true;
 	}
 
