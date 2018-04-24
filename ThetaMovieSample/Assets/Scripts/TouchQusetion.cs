@@ -6,8 +6,7 @@ using UnityEngine.Video;
 public class TouchQusetion : MonoBehaviour {
 
 	public GameObject hit_target;
-	public GameObject movie1;
-	public VideoPlayer vp;
+	public GameObject MoviePlane;
 	public GameObject MovieStopButton;
 
 
@@ -28,6 +27,7 @@ public class TouchQusetion : MonoBehaviour {
 
 			bool is_hit = Physics.Raycast (ray, out hit_info, max_distance); 
 
+
 			if (is_hit) {
 				if (hit_info.transform.name == hit_target.name) {
 					//TODO: ヒットした時の処理;
@@ -39,15 +39,15 @@ public class TouchQusetion : MonoBehaviour {
 
 	private void moviePlay()
 	{
-		movie1.SetActive (true); //planeをtrueのする
+		MoviePlane.SetActive (true); //planeをtrueのする
 		MovieStopButton.SetActive(true);
-		vp.Play ();
-		vp.isLooping=true;
+		//vp.Play ();
+		//vp.isLooping=true;
 	}
 
 	public void movieStop()
 	{
-		movie1.SetActive (false); //planeをfalseのする
+		MoviePlane.SetActive (false); //planeをfalseのする
 		MovieStopButton.SetActive(false);
 	}
 

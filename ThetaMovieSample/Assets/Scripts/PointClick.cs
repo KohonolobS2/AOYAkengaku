@@ -22,9 +22,10 @@ public class PointClick : MonoBehaviour {
 	public Texture tx2;
 	public Texture tx3;
 
-	//プレハブ関連のゲームobject
-	public GameObject prefab;
-	GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
+	//question達
+	public GameObject Question1;
+	public GameObject Question2;
+	public GameObject Question3;
 
 
 	// Use this for initialization
@@ -43,63 +44,58 @@ public class PointClick : MonoBehaviour {
 	{
 		//Questionのリセット
 		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
-		foreach (GameObject prefab in Questions)
+		foreach (GameObject Question in Questions)
 		{
-			Destroy(prefab);
+			Question.SetActive (false);
 		}
+		Question1.SetActive (true);
 		//シーンの切り替え
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
 		img.sprite = img1;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx1);
-		//クエスチョンの配置
-		prefab = (GameObject)Resources.Load("prefab/Question1");
-		var obj = Instantiate(prefab) as GameObject;
-		prefab.name = "prefab1";
-		obj.name=prefab.name;
+		//ここのクエスチョンのsetActive
+
+
 	}
 
 	public void Point2 ()
 	{
 		//Questionのリセット
 		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
-		foreach (GameObject prefab in Questions)
+		foreach (GameObject Question in Questions)
 		{
-			Destroy(prefab);
+			Question.SetActive (false);
 		}
+		Question2.SetActive (true);
 		//同上
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
 		img.sprite = img2;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx2);
-		//クエスチョンの配置
-		prefab = (GameObject)Resources.Load("prefab/Question2");
-		var obj = Instantiate(prefab) as GameObject;
-		prefab.name = "prefab2";
-		obj.name=prefab.name;
+		//ここのクエスチョンのsetActive
+
 	}
 
 	public void Point3 ()
 	{
 		//Questionのリセット
 		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
-		foreach (GameObject prefab in Questions)
+		foreach (GameObject Question in Questions)
 		{
-			Destroy(prefab);
+			Question.SetActive (false);
 		}
+		Question3.SetActive (true);
 		//同上
 		MapCanvas.SetActive(false);
 		MainCanvas.SetActive(true);
 		img.sprite = img3;
 		//背景の変更
 		sphere.SetTexture("_MainTex",tx3);
-		//クエスチョンの配置
-		prefab = (GameObject)Resources.Load("prefab/Question3");
-		var obj = Instantiate(prefab) as GameObject;
-		prefab.name = "prefab3";
-		obj.name=prefab.name;
+		//ここのクエスチョンのsetActive
+
 	}
 
 	//ミニマップに戻るときのメソッド

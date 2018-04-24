@@ -1,0 +1,18 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="PointClick">
+			<method name="Point1"/>
+			<method name="Point3"/>
+			<method name="MiniMapTouch"/>
+			<method name="Point2"/>
+		</type>
+		<type fullname="TouchQusetion">
+			<method name="movieStop"/>
+			<method name="movieStop"/>
+			<method name="movieStop"/>
+		</type>
+		<type fullname="SceneChange">
+			<method name="scenechange"/>
+		</type>
+	</assembly>
+</linker>
