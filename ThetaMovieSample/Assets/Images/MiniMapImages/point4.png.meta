@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0b660d63d7eaf495dbb8d0cc671f785c
 timeCreated: 1524550692
+=======
+guid: c200e187ffff743d692d95ee64bf06e3
+timeCreated: 1524553556
+>>>>>>> KobaBranch2
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
