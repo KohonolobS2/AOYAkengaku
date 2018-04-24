@@ -43,7 +43,6 @@ public class PointClick : MonoBehaviour {
 		
 	}
 
-<<<<<<< HEAD
 	//ミニマップに戻るときのメソッド
 	public void MiniMapTouch ()
 	{
@@ -57,8 +56,6 @@ public class PointClick : MonoBehaviour {
 		MainCanvas.SetActive (true);
 	}
 
-=======
->>>>>>> KobaBranch2
 	//各地点をクリックした時の動作なので要追加
 	public void Point1 ()
 	{
@@ -68,17 +65,14 @@ public class PointClick : MonoBehaviour {
 		{
 			Question.SetActive (false);
 		}
-<<<<<<< HEAD
 		Question1.SetActive (true);	//この地点のQuestionの設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img1;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx1);	//背景の変更
-=======
 		Question1.SetActive (true);	//この地点のQuestionを設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img1;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx1);	//背景の切り替え
->>>>>>> KobaBranch2
 	}
 
 	public void Point2 ()
@@ -89,17 +83,14 @@ public class PointClick : MonoBehaviour {
 		{
 			Question.SetActive (false);
 		}
-<<<<<<< HEAD
 		Question2.SetActive (true);	//この地点のQuestionの設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img2;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx2);	//背景の変更
-=======
 		Question2.SetActive (true);	//この地点のQuestionを設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img2;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx2);	//背景の切り替え
->>>>>>> KobaBranch2
 	}
 
 	public void Point3 ()
@@ -110,12 +101,10 @@ public class PointClick : MonoBehaviour {
 		{
 			Question.SetActive (false);
 		}
-<<<<<<< HEAD
 		Question3.SetActive (true);	//この地点のQuestionの設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img3;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx3);	//背景の変更
-=======
 		Question3.SetActive (true);	//この地点のQuestionを設置
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img3;	//ミニマップの切り替え
@@ -134,12 +123,10 @@ public class PointClick : MonoBehaviour {
 		ChangeCanvas();	//キャンバスの切り替え
 		img.sprite = img4;	//ミニマップの切り替え
 		sphere.SetTexture("_MainTex",tx4);	//背景の切り替え
->>>>>>> KobaBranch2
 	}
 
 	public void Point4 ()
 	{
-<<<<<<< HEAD
 		//Questionのリセット
 		GameObject[] Questions =GameObject.FindGameObjectsWithTag("Q");
 		foreach (GameObject Question in Questions)
@@ -152,7 +139,7 @@ public class PointClick : MonoBehaviour {
 		sphere.SetTexture("_MainTex",tx4);	//背景の変更
 	}
 
-=======
+
 		MapCanvas.SetActive(true);
 		MainCanvas.SetActive(false);
 	}
@@ -162,5 +149,4 @@ public class PointClick : MonoBehaviour {
 		MapCanvas.SetActive (false);
 		MainCanvas.SetActive (true);
 	}
->>>>>>> KobaBranch2
 }

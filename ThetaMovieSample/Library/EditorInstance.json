@@ -1,4 +1,18 @@
 {
+<<<<<<< HEAD
 	"process_id" : 13230,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	"process_id" : 96661,
+	"version" : "2017.2.0f3"
+=======
+	"process_id" : 9150,
+>>>>>>> parent of 633199b... +1
 	"version" : "2017.3.1f1"
+>>>>>>> d80defb4554c9be9e0dbc227067872ce1aab2799
+=======
+	"process_id" : 12222,
+	"version" : "2017.3.1f1"
+>>>>>>> KobaBranch2
 }
